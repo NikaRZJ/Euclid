@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Euclid</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/tabs.js"></script>
 </head>
 
 <body>
@@ -59,17 +62,41 @@
     </header>
     <main>
         <section class="section__hero">
-            <div class="container hero__container">
-                <div class="hero__content">
-                    <h2 class="hero__heading">
-                        Проектные решения любой сложности
-                    </h2>
-                    <div class="hero__desc">
-                        Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом
-                        проектантов
+            <div class="container">
+                <div class="swiper">
+
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="hero__container-1 swiper-slide">
+
+                        </div>
+                        <div class="hero__container-2 swiper-slide">
+
+                        </div>
+                        <div class="hero__container-3 swiper-slide">
+
+                        </div>
                     </div>
-                    <button class="btn hero__btn">Заказать расчёт</button>
+                    <div class="hero__content">
+                        <h2 class="hero__heading">
+                            Проектные решения любой сложности
+                        </h2>
+                        <div class="hero__desc">
+                            Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются
+                            уделом
+                            проектантов
+                        </div>
+                        <button class="btn hero__btn">Заказать расчёт</button>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
                 </div>
+
+
             </div>
         </section>
         <section class="section__about">
@@ -173,27 +200,27 @@
                 </h2>
                 <ul class="work__list">
                     <li class="work__item">
-                        <a href="" class="work-item__link">
+                        <a href="##" class="work-item__link" data-path="one">
                             1 шаг
                         </a>
                     </li>
                     <li class="work__item">
-                        <a href="" class="work-item__link">
+                        <a href="##" class="work-item__link" data-path="two">
                             2 шаг
                         </a>
                     </li>
                     <li class="work__item">
-                        <a href="" class="work-item__link">
+                        <a href="##" class="work-item__link" data-path="three">
                             3 шаг
                         </a>
                     </li>
                     <li class="work__item">
-                        <a href="" class="work-item__link">
+                        <a href="##" class="work-item__link" data-path="four">
                             4 шаг
                         </a>
                     </li>
                 </ul>
-                <div class="work__content">
+                <div class="work__content work__content-active" data-target="one">
                     <div class="work__desc">
                         <h2 class="work-desc__heading">
                             Проводим консультацию
@@ -221,10 +248,92 @@
                             </button>
                         </div>
                     </div>
-                    <div class="work__img-container">
+                    <div class="work__img-container work__img-1">
 
                     </div>
                 </div>
+                <div class="work__content" data-target="two">
+                    <div class="work__desc">
+                        <h2 class="work-desc__heading">
+                            Составляем смету
+                        </h2>
+                        <p class="work-desc__desc">
+                            Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации
+                            современных стандартов, некоторые особенности внутренней политики будут объективно
+                            рассмотрены соответствующими инстанциями. А также представители современных социальных
+                            резервов, инициированные исключительно синтетически, ограничены исключительно образом
+                            мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников,
+                            современные исследования подвергнуты целой серии независимых исследований.
+                        </p>
+                        <div class="work__buttons">
+                            <button class="btn work__btn-first">
+                                Подробнее
+                            </button>
+                            <button class="btn work__btn-second">
+                                Договор
+                            </button>
+                        </div>
+                    </div>
+                    <div class="work__img-container work__img-2">
+
+                    </div>
+                </div>
+                <div class="work__content" data-target="three">
+                    <div class="work__desc">
+                        <h2 class="work-desc__heading">
+                            Привлекаем подрядчиков
+                        </h2>
+                        <p class="work-desc__desc">
+                            Идейные соображения высшего порядка, а также новая модель организационной деятельности
+                            требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения
+                            представителей целевой аудитории является четким доказательством простого факта:
+                            высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений
+                            развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной
+                            деятельности говорит о возможностях системы массового участия. Принимая во внимание
+                            показатели успешности, постоянное информационно-пропагандистское обеспечение нашей
+                            деятельности позволяет выполнить важные задания по разработке прогресса профессионального
+                            сообщества.
+                        </p>
+                        <div class="work__buttons">
+                            <button class="btn work__btn-first">
+                                Подробнее
+                            </button>
+                            <button class="btn work__btn-second">
+                                Договор
+                            </button>
+                        </div>
+                    </div>
+                    <div class="work__img-container work__img-3">
+
+                    </div>
+                </div>
+                <div class="work__content" data-target="four">
+                    <div class="work__desc">
+                        <h2 class="work-desc__heading">
+                            Инспектируем все этапы работ
+                        </h2>
+                        <p class="work-desc__desc">
+                            Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
+                            простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших
+                            направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель
+                            организационной деятельности говорит о возможностях системы массового участия. Принимая во
+                            внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей
+                            деятельности позволяет.
+                        </p>
+                        <div class="work__buttons">
+                            <button class="btn work__btn-first">
+                                Подробнее
+                            </button>
+                            <button class="btn work__btn-second">
+                                Договор
+                            </button>
+                        </div>
+                    </div>
+                    <div class="work__img-container work__img-4">
+
+                    </div>
+                </div>
+
             </div>
         </section>
         <section class="section__que">
@@ -403,6 +512,8 @@
             </div>
         </div>
     </footer>
+    <script src="/js/swiper.js"></script>
+
 </body>
 
 </html>
