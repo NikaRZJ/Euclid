@@ -4,8 +4,8 @@
     font-style: normal;
     font-weight: 700;
     src: local(''),
-         url("/fonts/Montserrat-Bold.woff2") format('woff2'), /* Super Modern Browsers */
-         url("/fonts/Montserrat-Bold.woff") format('woff'); /* Modern Browsers */
+         url("../fonts/Montserrat-Bold.woff2") format('woff2'), /* Super Modern Browsers */
+         url("../fonts/Montserrat-Bold.woff") format('woff'); /* Modern Browsers */
 }
 
 /* Monterrat SemiBold */
@@ -15,8 +15,8 @@
     font-weight: 600;
     
     src: local(''),
-         url('/fonts/Montserrat-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/Montserrat-SemiBold.woff') format('woff'); /* Modern Browsers */
+         url('../fonts/Montserrat-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Montserrat-SemiBold.woff') format('woff'); /* Modern Browsers */
 }
 
 /* Monterrat Regular */
@@ -25,8 +25,8 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
-         url('/fonts/Montserrat-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/Montserrat-Regular.woff') format('woff'); /* Modern Browsers */
+         url('../fonts/Montserrat-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Montserrat-Regular.woff') format('woff'); /* Modern Browsers */
 }
 
 /* Monsterrat ExtraBold */
@@ -35,8 +35,8 @@
     font-style: normal;
     font-weight: 800;
     src: local(''),
-         url('/fonts/Montserrat-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/Montserrat-ExtraBold.woff') format('woff'); /* Modern Browsers */
+         url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Montserrat-ExtraBold.woff') format('woff'); /* Modern Browsers */
 }
 
 /* Monsterrat ExtraBold */
@@ -45,8 +45,8 @@
     font-style: normal;
     font-weight: 500;
     src: local(''),
-         url('/fonts/Montserrat-Medium.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/Montserrat-Medium.woff') format('woff'); /* Modern Browsers */
+         url('../fonts/Montserrat-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Montserrat-Medium.woff') format('woff'); /* Modern Browsers */
 }
 
 html {
@@ -250,7 +250,7 @@ a {
 
 .hero__container-1 {
     width: 100%;
-    background-image: url(/img/hero-back-1.jpg);
+    background-image: url(../img/hero-back-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -258,7 +258,7 @@ a {
 
 .hero__container-2 {
     width: 100%;
-    background-image: url(/img/hero-back-2.jpg);
+    background-image: url(../img/hero-back-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -266,7 +266,7 @@ a {
 
 .hero__container-3 {
     width: 100%;
-    background-image: url(/img/hero-back-3.jpg);
+    background-image: url(../img/hero-back-3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -361,7 +361,7 @@ a {
     align-items: flex-end;
     max-height: 622px;
     max-width: 868px;
-    background-image: url(/img/rb.jpg);
+    background-image: url(../img/rb.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -582,19 +582,19 @@ a {
 }
 
 .work__img-1 {
-    background-image: url(/img/work-1.jpg);
+    background-image: url(../img/work-1.jpg);
 }
 
 .work__img-2 {
-    background-image: url(/img/work-2.jpg);
+    background-image: url(../img/work-2.jpg);
 }
 
 .work__img-3 {
-    background-image: url(/img/work-3.jpg);
+    background-image: url(../img/work-3.jpg);
 }
 
 .work__img-4 {
-    background-image: url(/img/work-4.jpg);
+    background-image: url(../img/work-4.jpg);
 }
 
 /* .work__img {
@@ -645,16 +645,16 @@ a {
 	display: inline-block;
 	width: 50px;
 	height: 50px;    
-	background: url(/img/+х.svg) 50% 50% no-repeat;
+	background: url(../img/+х.svg) 50% 50% no-repeat;
     transition: transform 0.2s ease;
 }
 
 .ui-accordion .ui-accordion-header:hover .ui-accordion-header-icon{
-    background: url(/img/+х.svg) 50% 50% no-repeat;
+    background: url(../img/+х.svg) 50% 50% no-repeat;
 }
 
 .accordion .ui-accordion-header-active .ui-accordion-header-icon {
-    background: url(/img/+х.svg) 50% 50% no-repeat;
+    background: url(../img/+х.svg) 50% 50% no-repeat;
 	transform: rotate(45deg);
 }
 
@@ -1087,7 +1087,7 @@ a {
     }
 
     .hero__container-1 {
-        background-image: url(/img/1024-hero-back-1.jpg);
+        background-image: url(../img/1024-hero-back-1.jpg);
     }
 
     .hero__content {
@@ -1128,7 +1128,7 @@ a {
     }
 
     .about__left {
-        background-image: url(/img/rb-1024.jpg);
+        background-image: url(../img/rb-1024.jpg);
         max-width: 100%;
         max-height: 640px;
     }
@@ -1167,7 +1167,7 @@ a {
     }
 
     .work__img-1 {
-        background-image: url(/img/work-1__1024.jpg);
+        background-image: url(../img/work-1__1024.jpg);
     }
 
     .work-desc__desc {
@@ -1245,7 +1245,7 @@ a {
 
     /* Hero */
     .hero__container-1 {
-        background-image: url(/img/768-hero-back-1.jpg);
+        background-image: url(../img/768-hero-back-1.jpg);
     }
 
     .hero__content {
@@ -1269,7 +1269,7 @@ a {
         margin-bottom: 78px;
     }
     .about__left {
-        background-image: url(/img/rb-768.jpg);
+        background-image: url(../img/rb-768.jpg);
         max-height: 100%;
     }
 
@@ -1312,7 +1312,7 @@ a {
     }
 
     .work__img-1 {
-        background-image: url(/img/work-1__768.jpg);
+        background-image: url(../img/work-1__768.jpg);
     }
 
     .work-desc__desc {
@@ -1405,7 +1405,7 @@ a {
     }
 
     .hero__container-1 {
-        background-image: url(/img/320-hero-back-1.jpg);
+        background-image: url(../img/320-hero-back-1.jpg);
     }
 
     .hero__content {
@@ -1566,7 +1566,7 @@ a {
     }
 
     .work__img-1 {
-        background-image: url(/img/work-1__320.jpg);
+        background-image: url(../img/work-1__320.jpg);
     }
 
     .work-desc__heading {
